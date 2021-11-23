@@ -1,0 +1,649 @@
+Microsoft Windows [Version 10.0.19043.1348]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\USER>$ java -version
+'$' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\USER>java -version
+java version "1.8.0_111"
+Java(TM) SE Runtime Environment (build 1.8.0_111-b14)
+Java HotSpot(TM) 64-Bit Server VM (build 25.111-b14, mixed mode)
+
+C:\Users\USER>node -version
+node: bad option: -version
+
+C:\Users\USER>nodejs -version
+'nodejs' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\USER>yarn install nightwatch
+'yarn' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\USER>node --version
+v12.18.4
+
+C:\Users\USER>npm --version
+6.14.6
+
+C:\Users\USER>cd study(g:
+The filename, directory name, or volume label syntax is incorrect.
+
+C:\Users\USER>cd study(g:)
+The system cannot find the path specified.
+
+C:\Users\USER>cs documents
+'cs' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\USER>cd documents
+
+C:\Users\USER\Documents>mkdir nightwatch_folder
+
+C:\Users\USER\Documents>cd nightwatch_folder
+
+C:\Users\USER\Documents\nightwatch_folder>npm init -y
+Wrote to C:\Users\USER\Documents\nightwatch_folder\package.json:
+
+{
+  "name": "nightwatch_folder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+
+C:\Users\USER\Documents\nightwatch_folder>dir
+ Volume in drive C has no label.
+ Volume Serial Number is D479-64D7
+
+ Directory of C:\Users\USER\Documents\nightwatch_folder
+
+11/23/2021  08:05 PM    <DIR>          .
+11/23/2021  08:05 PM    <DIR>          ..
+11/23/2021  08:05 PM               231 package.json
+               1 File(s)            231 bytes
+               2 Dir(s)  51,697,176,576 bytes free
+
+C:\Users\USER\Documents\nightwatch_folder>code .
+
+C:\Users\USER\Documents\nightwatch_folder>npm install nightwatch --save-dev
+npm WARN deprecated request-promise@4.2.6: request-promise has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated mkdirp@0.5.4: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+[  ................] \ fetchMetadata: WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <[  ................] \ fetchMetadata: WARN deprecated debug@3.2.6: Debug vers[  ...........[  .[  .[ [ [ [ [ [ npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN nightwatch_folder@1.0.0 No description
+npm WARN nightwatch_folder@1.0.0 No repository field.
+
++ nightwatch@1.7.12
+added 285 packages from 675 contributors and audited 285 packages in 70.688s
+
+36 packages are looking for funding
+  run `npm fund` for details
+
+found 10 moderate severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+C:\Users\USER\Documents\nightwatch_folder>npm audit
+
+                       === npm audit security report ===
+
+
+                                 Manual Review
+             Some vulnerabilities require your attention to resolve
+
+          Visit https://go.npm.me/audit-guide for additional guidance
+
+
+  Moderate         Inefficient Regular Expression Complexity in
+                  chalk/ansi-regex
+
+  Package         ansi-regex
+
+  Patched in      >=5.0.1
+
+  Dependency of   nightwatch [dev]
+
+  Path            nightwatch > mocha > wide-align > string-width > strip-ansi
+                  > ansi-regex
+
+  More info       https://github.com/advisories/GHSA-93q8-gq69-wqmw
+
+
+  Moderate         Inefficient Regular Expression Complexity in
+                  chalk/ansi-regex
+
+  Package         ansi-regex
+
+  Patched in      >=5.0.1
+
+  Dependency of   nightwatch [dev]
+
+  Path            nightwatch > mocha > yargs > cliui > strip-ansi > ansi-regex
+
+  More info       https://github.com/advisories/GHSA-93q8-gq69-wqmw
+
+
+  Moderate         Inefficient Regular Expression Complexity in
+                  chalk/ansi-regex
+
+  Package         ansi-regex
+
+  Patched in      >=5.0.1
+
+  Dependency of   nightwatch [dev]
+
+  Path            nightwatch > mocha > yargs > cliui > string-width >
+                  strip-ansi > ansi-regex
+
+  More info       https://github.com/advisories/GHSA-93q8-gq69-wqmw
+
+
+  Moderate         Inefficient Regular Expression Complexity in
+                  chalk/ansi-regex
+
+  Package         ansi-regex
+
+  Patched in      >=5.0.1
+
+  Dependency of   nightwatch [dev]
+
+  Path            nightwatch > mocha > yargs-unparser > yargs > cliui >
+                  string-width > strip-ansi > ansi-regex
+
+  More info       https://github.com/advisories/GHSA-93q8-gq69-wqmw
+
+
+  Moderate         Inefficient Regular Expression Complexity in
+                  chalk/ansi-regex
+
+  Package         ansi-regex
+
+  Patched in      >=5.0.1
+
+  Dependency of   nightwatch [dev]
+
+  Path            nightwatch > mocha > yargs > cliui > wrap-ansi > strip-ansi
+                  > ansi-regex
+
+  More info       https://github.com/advisories/GHSA-93q8-gq69-wqmw
+
+
+  Moderate         Inefficient Regular Expression Complexity in
+                  chalk/ansi-regex
+
+  Package         ansi-regex
+
+  Patched in      >=5.0.1
+
+  Dependency of   nightwatch [dev]
+
+  Path            nightwatch > mocha > yargs > cliui > wrap-ansi >
+                  string-width > strip-ansi > ansi-regex
+
+  More info       https://github.com/advisories/GHSA-93q8-gq69-wqmw
+
+
+  Moderate         Inefficient Regular Expression Complexity in
+                  chalk/ansi-regex
+
+  Package         ansi-regex
+
+  Patched in      >=5.0.1
+
+  Dependency of   nightwatch [dev]
+
+  Path            nightwatch > mocha > yargs-unparser > yargs > cliui >
+                  wrap-ansi > string-width > strip-ansi > ansi-regex
+
+  More info       https://github.com/advisories/GHSA-93q8-gq69-wqmw
+
+
+  Moderate         Inefficient Regular Expression Complexity in
+                  chalk/ansi-regex
+
+  Package         ansi-regex
+
+  Patched in      >=5.0.1
+
+  Dependency of   nightwatch [dev]
+
+  Path            nightwatch > mocha > yargs > string-width > strip-ansi >
+                  ansi-regex
+
+  More info       https://github.com/advisories/GHSA-93q8-gq69-wqmw
+
+
+  Moderate         Inefficient Regular Expression Complexity in
+                  chalk/ansi-regex
+
+  Package         ansi-regex
+
+  Patched in      >=5.0.1
+
+  Dependency of   nightwatch [dev]
+
+  Path            nightwatch > mocha > yargs-unparser > yargs > string-width >
+                  strip-ansi > ansi-regex
+
+  More info       https://github.com/advisories/GHSA-93q8-gq69-wqmw
+
+
+  Moderate        json-schema is vulnerable to Prototype Pollution
+
+  Package         json-schema
+
+  Patched in      >=0.4.0
+
+  Dependency of   nightwatch [dev]
+
+  Path            nightwatch > request > http-signature > jsprim > json-schema
+
+  More info       https://github.com/advisories/GHSA-896r-f27r-55mw
+
+found 10 moderate severity vulnerabilities in 285 scanned packages
+  10 vulnerabilities require manual review. See the full report for details.
+
+C:\Users\USER\Documents\nightwatch_folder>node-modules\.bin\nightwatch --version
+The system cannot find the path specified.
+
+C:\Users\USER\Documents\nightwatch_folder>node_modules\.bin\nightwatch --version
+  Nightwatch:
+    version: 1.7.12
+    changelog: https://github.com/nightwatchjs/nightwatch/releases/tag/v1.7.12
+
+
+C:\Users\USER\Documents\nightwatch_folder>npx nightwatch --version
+  Nightwatch:
+    version: 1.7.12
+    changelog: https://github.com/nightwatchjs/nightwatch/releases/tag/v1.7.12
+
+
+C:\Users\USER\Documents\nightwatch_folder>npm install chromedriver --save-dev
+
+> chromedriver@96.0.0 install C:\Users\USER\Documents\nightwatch_folder\node_modules\chromedriver
+> node install.js
+
+Current existing ChromeDriver binary is unavailable, proceeding with download and extraction.
+Downloading from file:  https://chromedriver.storage.googleapis.com/96.0.4664.45/chromedriver_win32.zip
+Saving to file: C:\Users\USER\AppData\Local\Temp\96.0.4664.45\chromedriver\chromedriver_win32.zip
+Received 1040K...
+Received 2064K...
+Received 3089K...
+Received 4114K...
+Received 5152K...
+Received 5935K total.
+Extracting zip contents to C:\Users\USER\AppData\Local\Temp\96.0.4664.45\chromedriver.
+Copying from C:\Users\USER\AppData\Local\Temp\96.0.4664.45\chromedriver to target path C:\Users\USER\Documents\nightwatch_folder\node_modules\chromedriver\lib\chromedriver
+Done. ChromeDriver binary available at C:\Users\USER\Documents\nightwatch_folder\node_modules\chromedriver\lib\chromedriver\chromedriver.exe
+npm WARN nightwatch_folder@1.0.0 No description
+npm WARN nightwatch_folder@1.0.0 No repository field.
+
++ chromedriver@96.0.0
+added 54 packages from 91 contributors and audited 339 packages in 32.299s
+
+45 packages are looking for funding
+  run `npm fund` for details
+
+found 10 moderate severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+C:\Users\USER\Documents\nightwatch_folder>npm install geckodriver --save-der
+
+> geckodriver@2.0.4 postinstall C:\Users\USER\Documents\nightwatch_folder\node_modules\geckodriver
+> node index.js
+
+Downloading geckodriver... Extracting... Complete.
+npm WARN nightwatch_folder@1.0.0 No description
+npm WARN nightwatch_folder@1.0.0 No repository field.
+
++ geckodriver@2.0.4
+added 35 packages from 39 contributors and audited 374 packages in 19.763s
+
+51 packages are looking for funding
+  run `npm fund` for details
+
+found 10 moderate severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+C:\Users\USER\Documents\nightwatch_folder>npm install
+npm WARN nightwatch_folder@1.0.0 No description
+npm WARN nightwatch_folder@1.0.0 No repository field.
+
+audited 374 packages in 1.883s
+
+51 packages are looking for funding
+  run `npm fund` for details
+
+found 10 moderate severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+C:\Users\USER\Documents\nightwatch_folder>npm audit fix
+npm WARN nightwatch_folder@1.0.0 No description
+npm WARN nightwatch_folder@1.0.0 No repository field.
+
+up to date in 1.503s
+
+51 packages are looking for funding
+  run `npm fund` for details
+
+fixed 0 of 10 vulnerabilities in 374 scanned packages
+  10 vulnerabilities required manual review and could not be updated
+
+C:\Users\USER\Documents\nightwatch_folder>npx nightwatch
+No config file found in the current working directory, creating nightwatch.conf.js in the current folder...
+   Error: No test source specified, please check configuration.
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+
+C:\Users\USER\Documents\nightwatch_folder>dir
+ Volume in drive C has no label.
+ Volume Serial Number is D479-64D7
+
+ Directory of C:\Users\USER\Documents\nightwatch_folder
+
+11/23/2021  09:33 PM    <DIR>          .
+11/23/2021  09:33 PM    <DIR>          ..
+11/23/2021  09:33 PM                59 geckodriver.log
+11/23/2021  09:33 PM             7,149 nightwatch.conf.js
+11/23/2021  09:29 PM    <DIR>          node_modules
+11/23/2021  09:29 PM           119,390 package-lock.json
+11/23/2021  09:29 PM               371 package.json
+               4 File(s)        126,969 bytes
+               3 Dir(s)  51,605,639,168 bytes free
+
+C:\Users\USER\Documents\nightwatch_folder>code .
+
+C:\Users\USER\Documents\nightwatch_folder>mkdir test
+
+C:\Users\USER\Documents\nightwatch_folder>npx nightwatch
+   Error: No tests defined! using source folder: ./test
+
+
+
+C:\Users\USER\Documents\nightwatch_folder>npx nightwatch
+   Error: No tests defined! using source folder: ./test
+
+
+
+C:\Users\USER\Documents\nightwatch_folder>npx nightwatch
+_________________________________________________
+
+TEST FAILURE: 1 error during execution; 0 tests failed, 0 passed (168ms)
+
+  ReferenceError: modules is not defined
+       at Object.<anonymous> (C:\Users\USER\Documents\nightwatch_folder\test\bubt.js:1:1)
+       at Module._compile (internal/modules/cjs/loader.js:1137:30)
+       at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+       at Module.load (internal/modules/cjs/loader.js:985:32)
+       at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+       at Module.require (internal/modules/cjs/loader.js:1025:19)
+       at require (internal/modules/cjs/helpers.js:72:18)
+
+
+   ReferenceError: modules is not defined
+       at Object.<anonymous> (C:\Users\USER\Documents\nightwatch_folder\test\bubt.js:1:1)
+       at Module._compile (internal/modules/cjs/loader.js:1137:30)
+       at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+       at Module.load (internal/modules/cjs/loader.js:985:32)
+       at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+       at Module.require (internal/modules/cjs/loader.js:1025:19)
+       at require (internal/modules/cjs/helpers.js:72:18)
+
+
+C:\Users\USER\Documents\nightwatch_folder>npx nightwatch
+
+[Bubt] Test Suite
+=================
+i Connected to localhost on port 4444 (5421ms).
+  Using: firefox (72.0.2) on windows 10.0 platform.
+
+‼ Running learning:
+
+No assertions ran.
+
+
+C:\Users\USER\Documents\nightwatch_folder>npx nightwatch -e chrome
+
+[Bubt] Test Suite
+=================
+| Connecting to localhost on port 9515...
+
+DevTools listening on ws://127.0.0.1:63009/devtools/browser/bf24a724-2b13-4c1a-a6f6-d166ad5b27i Connected to localhost on port 9515 (1097ms).
+  Using: chrome (96.0.4664.45) on Windows platform.
+
+‼ Running learning:
+
+No assertions ran.
+
+
+C:\Users\USER\Documents\nightwatch_folder>npx nightwatch -e chrome
+
+[Bubt] Test Suite
+=================
+| Connecting to localhost on port 9515...
+
+DevTools listening on ws://127.0.0.1:63151/devtools/browser/4b2db932-68d4-4c93-9029-4e2777efd0i Connected to localhost on port 9515 (985ms).
+  Using: chrome (96.0.4664.45) on Windows platform.
+
+/ Running learning:
+[12216:11664:1124/005945.671:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[12216:11664:1124/005945.672:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/- Running learning:
+[12216:6060:1124/005945.691:ERROR:device_event_log_impl.cc(214)] [00:59:45.691] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+[12216:11664:1124/005945.691:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[12216:11664:1124/005945.714:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/‼ Running learning:
+
+No assertions ran.
+
+
+C:\Users\USER\Documents\nightwatch_folder>npx nightwatch -e chrome
+
+[Bubt] Test Suite
+=================
+| Connecting to localhost on port 9515...
+
+DevTools listening on ws://127.0.0.1:60009/devtools/browser/68665ff3-93a9-4e7a-accb-924e49029di Connected to localhost on port 9515 (953ms).
+  Using: chrome (96.0.4664.45) on Windows platform.
+
+| Running learning:
+[11268:4924:1124/010857.080:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[11268:4924:1124/010857.090:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+[11268:4924:1124/010857.093:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[11268:1040:1124/010857.100:ERROR:device_event_log_impl.cc(214)] [01:08:57.100] Bluetooth: blu/ Running learning:
+[11268:4924:1124/010857.136:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1/ Running learning:
+ Error while running .clickElement() protocol action: An unknown error has occurred – element click intercepted: Element <img src="https://www.bubt.edu.bd/assets/frontend/ima...
+
+   TimeoutError: An error occurred while running .click() command on <#mainNav > div.navbar-header > div > a > img>:   (Session info: chrome=96.0.4664.45),  (Driver info: chromedriver=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}),platform=Windows NT 10.0.19043 x86_64); element click intercepted: Element <img src="https://www.bubt.edu.bd/assets/frontend/images/bubt_logo.png" alt="BUBT"> is not clickable at point (185, 141). Other element would receive the click: <img src="https://www.bubt.edu.bd/assets/frontend/media/1636291158bubt-5th-convocation-2022.jpg" alt="" id="logo" style="max-width:100%; width: 700px;">   {"status":-1,"state":"","code":"","value":{"message":"element click intercepted: Element <img src=\"https://www.bubt.edu.bd/assets/frontend/images/bubt_logo.png\" alt=\"BUBT\"> is not clickable at point (185, 141). Other element would receive the click: <img src=\"https://www.bubt.edu.bd/assets/frontend/media/1636291158bubt-5th-convocation-2022.jpg\" alt=\"\" id=\"logo\" style=\"max-width:100%; width: 700px;\">","error":["  (Session info: chrome=96.0.4664.45)","  (Driver info: chromedriver=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}),platform=Windows NT 10.0.19043 x86_64)"]},"errorStatus":64,"error":"An unknown error has occurred – element click intercepted: Element <img src=\"https://www.bubt.edu.bd/assets/frontend/ima...","httpStatusCode":200}
+       at Object.learning (C:\Users\USER\Documents\nightwatch_folder\test\bubt.js:5:17)
+‼ Running learning:
+
+
+FAILED: 1 errors (13.562s)
+_________________________________________________
+
+TEST FAILURE: 1 error during execution; 0 tests failed, 0 passed (14.988s)
+
+ × bubt
+ – learning (13.562s)
+
+  TimeoutError: An error occurred while running .click() command on <#mainNav > div.navbar-header > div > a > img>:   (Session info: chrome=96.0.4664.45),  (Driver info: chromedriver=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}),platform=Windows NT 10.0.19043 x86_64); element click intercepted: Element <img src="https://www.bubt.edu.bd/assets/frontend/images/bubt_logo.png" alt="BUBT"> is not clickable at point (185, 141). Other element would receive the click: <img src="https://www.bubt.edu.bd/assets/frontend/media/1636291158bubt-5th-convocation-2022.jpg" alt="" id="logo" style="max-width:100%; width: 700px;">
+   {"status":-1,"state":"","code":"","value":{"message":"element click intercepted: Element <img src=\"https://www.bubt.edu.bd/assets/frontend/images/bubt_logo.png\" alt=\"BUBT\"> is not clickable at point (185, 141). Other element would receive the click: <img src=\"https://www.bubt.edu.bd/assets/frontend/media/1636291158bubt-5th-convocation-2022.jpg\" alt=\"\" id=\"logo\" style=\"max-width:100%; width: 700px;\">","error":["  (Session info: chrome=96.0.4664.45)","  (Driver info: chromedriver=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}),platform=Windows NT 10.0.19043 x86_64)"]},"errorStatus":64,"error":"An unknown error has occurred – element click intercepted: Element <img src=\"https://www.bubt.edu.bd/assets/frontend/ima...","httpStatusCode":200}
+       at Object.learning (C:\Users\USER\Documents\nightwatch_folder\test\bubt.js:5:17)
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+
+| Connecting to localhost on port 9515...
+
+DevTools listening on ws://127.0.0.1:60366/devtools/browser/ff50a6cb-ebac-4e09-8d1c-e230216dd8i Connected to localhost on port 9515 (973ms).
+  Using: chrome (96.0.4664.45) on Windows platform.
+- Connecting to localhost on port 9515...
+- Running learning:
+[12136:8012:1124/011758.195:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[12136:8012:1124/011758.197:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+[12136:8012:1124/011758.215:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this\ Running learning:
+[12136:10772:1124/011758.223:ERROR:device_event_log_impl.cc(214)] [01:17:58.212] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+[12136:8012:1124/011758.251:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1‼ Running learning:
+
+No assertions ran.
+
+
+C:\Users\USER\Documents\nightwatch_folder>npx nightwatch -e chrome
+_________________________________________________
+
+TEST FAILURE: 1 error during execution; 0 tests failed, 0 passed (172ms)
+
+  SyntaxError: Identifier 'dismissPopup' has already been declared
+           const dismissPopup ="#u_0_0_LB > div > div > div > div > div > div._a2zp > div._9dzn > div._9q4i > div > div > svg"
+                 ^
+
+   SyntaxError: Identifier 'dismissPopup' has already been declared
+       at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+       at Module._compile (internal/modules/cjs/loader.js:1101:27)
+       at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+       at Module.load (internal/modules/cjs/loader.js:985:32)
+       at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+       at Module.require (internal/modules/cjs/loader.js:1025:19)
+       at require (internal/modules/cjs/helpers.js:72:18)
+
+
+   SyntaxError: Identifier 'dismissPopup' has already been declared
+           const dismissPopup ="#u_0_0_LB > div > div > div > div > div > div._a2zp > div._9dzn > div._9q4i > div > div > svg"
+                 ^
+
+   SyntaxError: Identifier 'dismissPopup' has already been declared
+       at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+       at Module._compile (internal/modules/cjs/loader.js:1101:27)
+       at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+       at Module.load (internal/modules/cjs/loader.js:985:32)
+       at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+       at Module.require (internal/modules/cjs/loader.js:1025:19)
+       at require (internal/modules/cjs/helpers.js:72:18)
+
+
+C:\Users\USER\Documents\nightwatch_folder>npx nightwatch -e chrome
+
+[Bubt] Test Suite
+=================
+\ Connecting to localhost on port 9515...
+DevTools listening on ws://127.0.0.1:60548/devtools/browser/9bb0aef8-5486-4827-a026-75cdc7510f9c
+i Connected to localhost on port 9515 (890ms).
+  Using: chrome (96.0.4664.45) on Windows platform.
+
+\ Running learning:
+[3824:11464:1124/012156.752:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[3824:11464:1124/012156.755:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+[3824:6748:1124/012156.766:ERROR:device_event_log_impl.cc(214)] [01:21:56.764] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+[3824:11464:1124/012156.766:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this[3824:11464:1124/012156.789:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+/ Running learning:
+   NoSuchElementError: An error occurred while running .click() command on <#u_0_0_LB > div > div > div > div > div > div._a2zp > div._9dzn > div._9q4i > div > div > svg>:
+   {"sessionId":"ce2982d2565b56c30b2a458cfa3db710","status":0,"value":[]}
+       at Object.learning (C:\Users\USER\Documents\nightwatch_folder\test\bubt.js:11:17)
+‼ Running learning:
+
+
+FAILED: 1 errors (20.412s)
+_________________________________________________
+
+TEST FAILURE: 1 error during execution; 0 tests failed, 0 passed (21.668s)
+
+ × bubt
+ – learning (20.412s)
+
+  NoSuchElementError: An error occurred while running .click() command on <#u_0_0_LB > div > div > div > div > div > div._a2zp > div._9dzn > div._9q4i > div > div > svg>:
+   {"sessionId":"ce2982d2565b56c30b2a458cfa3db710","status":0,"value":[]}
+       at Object.learning (C:\Users\USER\Documents\nightwatch_folder\test\bubt.js:11:17)
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+
+
+C:\Users\USER\Documents\nightwatch_folder>npx nightwatch -e chrome
+
+[Bubt] Test Suite
+=================
+| Connecting to localhost on port 9515...
+
+i Connected to localhost on port 9515 (1055ms).
+  Using: chrome (96.0.4664.45) on Windows platform.
+
+/ Running learning:
+[4112:6236:1124/012813.770:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[4112:6236:1124/012813.770:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+[4112:6236:1124/012813.770:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[4112:544:1124/012813.770:ERROR:device_event_log_impl.cc(214)] [01:28:13.768] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+[4112:6236:1124/012813.785:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browse‼ Running learning:
+
+No assertions ran.
+
+
+C:\Users\USER\Documents\nightwatch_folder>npx nightwatch -e chrome
+
+[Bubt] Test Suite
+=================
+\ Connecting to localhost on port 9515...
+
+i Connected to localhost on port 9515 (870ms).
+  Using: chrome (96.0.4664.45) on Windows platform.
+
+/ Running learning:
+[10572:10856:1124/013049.850:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[10572:10856:1124/013049.850:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+[10572:10856:1124/013049.865:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default brow- Running learning:
+[10572:5728:1124/013049.881:ERROR:device_event_log_impl.cc(214)] [01:30:49.884] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+[10572:10856:1124/013049.897:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default brow‼ Running learning:
+
+No assertions ran.
+
+
+C:\Users\USER\Documents\nightwatch_folder>npx nightwatch -e chrome
+
+[Bubt] Test Suite
+=================
+\ Connecting to localhost on port 9515...
+
+i Connected to localhost on port 9515 (894ms).
+  Using: chrome (96.0.4664.45) on Windows platform.
+
+/ Running learning:
+[10556:2892:1124/015228.708:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[10556:2892:1124/015228.723:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+[10556:2892:1124/015228.723:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[10556:11352:1124/015228.739:ERROR:device_event_log_impl.cc(214)] [01:52:28.739] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+[10556:2892:1124/015228.770:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default brows/ Running learning:
+   NoSuchElementError: An error occurred while running .getText() command on <body > div.form-style-10 > h1 > span>:
+   {"sessionId":"c7de2c705f72bd72e188f6b40fa7cbe9","status":0,"value":[]}
+‼ Running learning:
+
+× Testing if element <body > div.form-style-10 > h1 > span> contains text 'Please Enter your valid information to get BUBT ANNEX password' in 5000ms - expected "contains text 'Please Enter your valid information to get BUBT ANNEX password'" but got: "element could not be located" (5291ms)
+    at Object.learning (C:\Users\USER\Documents\nightwatch_folder\test\bubt.js:11:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+
+FAILED: 1 assertions failed and  1 errors (12.262s)
+_________________________________________________
+
+TEST FAILURE: 1 error during execution; 1 assertions failed, 0 passed (13.509s)
+
+ × bubt
+ – learning (12.262s)
+   Testing if element <body > div.form-style-10 > h1 > span> contains text 'Please Enter your valid information to get BUBT ANNEX password' in 5000ms - expected "contains text 'Please Enter your valid information to get BUBT ANNEX password'" but got: "element could not be located" (5291ms)
+       at Object.learning (C:\Users\USER\Documents\nightwatch_folder\test\bubt.js:11:24)
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+  NoSuchElementError: An error occurred while running .getText() command on <body > div.form-style-10 > h1 > span>:
+   {"sessionId":"c7de2c705f72bd72e188f6b40fa7cbe9","status":0,"value":[]}
+
+
+
+
+C:\Users\USER\Documents\nightwatch_folder>
